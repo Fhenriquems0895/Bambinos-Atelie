@@ -1,0 +1,80 @@
+@charset "UTF-8"
+@font-face {
+    font-family:"baloes" ;
+    src: url(fontes/Balloon\ Party.ttf), ;
+}
+@font-face {
+    font-family:"batti" ;
+    src: url(fontes/Battipaglia.otf), url(fontes/Battipaglia.ttf);
+}
+:root{
+    --cor0: #7a4746;
+    --cor1: #73553d;
+    --cor2: #bf9573;
+    --cor3: #afa587;
+    --cor4: #fff8f2;
+
+    --font-padrão: arial, verdana, helvetica, sans-serif;
+    
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    text-indent: 10px;
+}
+
+header{
+    --cor1: #73553d;
+    background-image: linear-gradient(#73553d91, #bf9573c0,#73553d91);
+    width: 100%;
+    font-family: "batti";
+    font-size: 30px;
+    text-align: center;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.471);
+}
+nav{
+    background-color: var(--cor0);
+    width: 100%;
+    height: 25px;
+    padding: 5px;
+}
+nav>picture{
+    text-align: center;
+}
+a {
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:hover{ 
+    background-color: var(--cor2);
+    color:rgba(255, 255, 0, 0.46);
+
+}
+main{
+    background-color: var(--cor3);
+    min-width: 320px;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0px 0px 10px;
+    border-radius: 5px;
+    font-family: var(--font-padrão);
+    font-size: 16px;
+    
+}
+
+section
+article{
+    text-indent: 35px;
+}
+
+footer{
+    background-color: var(--cor0);
+    color: white;
+    padding: 5PX;
+    width: 100%;
+    font-size: 15px;
+    display: block;
+}
