@@ -1,4 +1,5 @@
 @charset "UTF-8"
+
 @font-face {
     font-family:"baloes" ;
     src: url(fontes/Balloon\ Party.ttf), ;
@@ -6,6 +7,9 @@
 @font-face {
     font-family:"batti" ;
     src: url(fontes/Battipaglia.otf), url(fontes/Battipaglia.ttf);
+}
+style{
+    background-image: -moz-linear-gradient(#fff8f2, #bf9573,#afa587, #73553d);
 }
 :root{
     --cor0: #7a4746;
@@ -77,4 +81,6 @@ footer{
     width: 100%;
     font-size: 15px;
     display: block;
+    position: fixed;
+     bottom: 0;
 }
